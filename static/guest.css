@@ -1,0 +1,60 @@
+.guestbook-image {
+  flex: 0 0 8rem;
+  height: 8rem;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-1 {
+  background-image: url("./imges/sparrow.jpeg");
+}
+
+.backgroud-2{
+  background-image: url("./imges/snake.jpeg")
+}
+
+.background-3{
+  background-image: url("./imges/dog.jpeg")
+}
+
+.guestbook-image > img {
+  width: 80%;
+}
+
+.guest{
+  overflow: auto;
+  height: 500px;
+}
+
+.guest_summary{
+  font-family: 'NeoDunggeunmo';
+  padding:30px;
+  display:flex;
+  flex:10;
+}
+
+.guest_title{
+  height: 35px;
+  vertical-align: middle;
+  line-height: 35px;
+  margin: 10px;
+  font-size:25px;
+  font-family: 'HSSaemaul-Regular';
+  background-color:gray;
+  border:1px solid black;
+  color:white;
+  padding-left:10px;
+  border-radius:10px;
+}
+
+.guest_box{
+  flex:10;
+  width: 200px;
+  padding: 15px;
+  flex-direction:row;
+  display:flex;
+}
+

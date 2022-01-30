@@ -1,0 +1,24 @@
+.picture{
+  overflow: auto;
+  height: 500px;
+}
+
+.summary{
+  font-family: 'NeoDunggeunmo';
+  padding:30px;
+}
+
+.photo_title{
+  height: 35px;
+  vertical-align: middle;
+  line-height: 35px;
+  padding: 0px 15px;
+  font-size:25px;
+  font-family: 'HSSaemaul-Regular';
+}
+
+.photo_box{
+  width: 510px;
+  padding: 15px;
+}
+
